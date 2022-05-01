@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/amazon.css">
+    <script defer src="https.//use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet"/>
+    <title>Amazon-clone: Online Shopping</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script src="https://kit.fontawesome.com/fe89cf6951.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-------header and nav bar--------->
+
+    <header>
+        <div id="content">
+            <span class="slide">
+            </span>
+        </div>
+
+        <div>
+            <a href="#"><img id="home-logo" class="logo" src="img/logo.png" alt="logo"></a>
+            </div>
+
+        <span><button class="all-button">All <i class="fa-solid fa-sort-down" ></i></button></span>
+        <form action="" class="search-box">
+            <input class="search-box" type="text" placeholder="search">
+        </form>
+        <a href="#" class="search-button">
+            <i class="fas fa-search"></i>
+        </a>
+
+        <nav class="nav-bar">
+            <ul class="nav_links">
+                <li class="nav_link1"><a href="login.html">Hello, Sign in <strong>Account & Lists <i class="fa-solid fa-sort-down" ></i></a></strong></a></li>
+                <li class="nav_link2"><a href="amazon.html">Returns <strong>& Orders</strong></a></li>
+                <i class="fas fa-cart-arrow-down"></i>
+            </ul>
+        </nav>
+    </header>
+    <section class="second-nav-container">
+        <nav class="second-nav">
+            <ul class=second-nav-list>
+                <a href="#">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <li class="icon-text"><a href="#">All<strong></a></strong></a></li>
+                <li class="nav2-general0"><a href="#">Electronics</a></li>
+                <li class="nav2-general1"><a href="#">Best Sellers</a></li>
+                <li class="nav2-general2"><a href="#">Customer Service</a></li>
+                <li class="nav2-general3"><a href="#">Todays Deals</a></li>
+                <li class="nav2-general4"><a href="#">Prime<i class="fa-solid fa-sort-down" ></i></a></li>
+                <li class="nav2-general5"><a href="#">Todays Deals</a></li>
+                <li class="nav2-message"><a href="#">Shopping made easy | Download the app</a></li>
+            </ul>
+        </nav>
+    </section>
+<!-------main hero slider--------->
+
+    <section class="third-container">
+        <P>
+            You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="#" class="learn-more">Click here to go to amazon.in</a>
+        </P>
+    </section>
+    <main>
+        <div id="slider">
+            <figure>
+                <img src="https://m.media-amazon.com/images/I/91yHGvgwGNL._SX3000_.jpg" alt="Lorem ipsum"/>
+                <img src="https://m.media-amazon.com/images/I/711Y9Al9RNL._SX3000_.jpg" alt="Lorem ipsum"/>
+                <img src="https://m.media-amazon.com/images/I/61ph2zfaBhL._SX3000_.jpg" alt="Lorem ipsum"/>
+                <img src="https://m.media-amazon.com/images/I/81sdM3S6kyL._SX3000_.jpg" alt="Lorem ipsum"/>
+                <img src="https://m.media-amazon.com/images/I/71qid7QFWJL._SX3000_.jpg" alt="Lorem ipsum"/>
+              </figure>
+        </div>
+
+    <!-------product gallery------------>
+
+        <section id="grid-wrap">
+            <ul id="grid-flex">
+                <li class="grid-item">
+                    <h2>Amazon Pay </h2>
+                    <div class="img-container"><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/AmazonPay/Kartik/FEBGTM/PCrevised/PC_Category_Card_758x608._SY608_CB628894454_.jpg" alt=""></div>
+                    <p><a href="#">Explore more bills</a></p>
+                </li>
+                <li class="grid-item">
+                    <h2>Health & Personal Care</h2>
+                    <div class="img-container"><img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2022/February/DashboardCards/GW_CONS_AUS_HPC_HPCEssentials_CatCard_Desktop2x._SY608_CB627424361_.jpg"></div>
+                    <p><a href="#">Shop now</a></p>
+                </li>
+                <li class="grid-item">
+                    <h2>For your Fitness Needs</h2>
+                    <div class="img-container"><img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Fitness_2X._SY608_CB639748111_.jpg"></div>
+                    <p><a href="#">Shop now</a></p>
+                </li>
+                <li class="grid-item">
+                    <h2 class="sign-in-text">Sign in for the best experience</h2>
+                    <div class="sign-in-container">
+                        <button class="sign-in-button" id="submit">Sign in securely</button>
+                    </div>
+                </li>
+                <li class="grid-item">
+                    <h2>Shop Mother's Day Gifts </h2>
+                    <div class="img-container"><img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2022/MothersDay/Fuji_Apr22_MothersDay_dashcard_2x._SY608_CB623709835_.jpg"></div>
+                    <p><a href="#">Shop now</a></p>
+                </li>
+                <li class="grid-item">
+                    <h2>Computers & Accessories</h2>
+                    <div class="img-container"><img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_PC_2x._SY608_CB431800964_.jpg"></div>
+                    <p><a href="#">Shop now</a></p>
+                </li>
+                <li class="grid-item">
+                    <h2>New arrivals in Toys</h2>
+                    <div class="img-container"><img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Toys_2X._SY608_CB639759849_.jpg"></div>
+                    <p><a href="#">Shop now</a></p>
+                </li>
+                <li class="grid-item">
+                    <h2>Shop Laptops & Tablets</h2>
+                    <div class="img-container"><img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Laptops_758x608_2X_en_US._SY608_CB418608386_.jpg"></div>
+                    <p><a href="#">Shop now</a></p>
+                </li>
+            </ul>
+        </section>
+
+        <!-------Feed carousel-------->
+        <section id="carousel-container">
+            <h3 class="carousel-heading">Discover Amazon<a href=#>Click to learn more</a></h3>
+            <div class="carousel" data-flickity='{"groupCells": true}'>
+                <div class="carousel-cell"><img src="https://danny-amazon.netlify.app/images/carouselA5.jpg"></div>
+                <div class="carousel-cell"><img src="https://danny-amazon.netlify.app/images/carouselA1.jpg"></div>
+                <div class="carousel-cell"><img src="https://danny-amazon.netlify.app/images/carouselA3.jpg"></div>
+                <div class="carousel-cell"><img src="https://danny-amazon.netlify.app/images/carouselA2.jpg"></div>
+                <div class="carousel-cell"><img src="https://danny-amazon.netlify.app/images/carouselA4.jpg"></div>
+                <div class="carousel-cell"><img src="https://danny-amazon.netlify.app/images/carouselA5.jpg"></div>
+                <div class="carousel-cell"><img src="https://danny-amazon.netlify.app/images/carouselA1.jpg"></div>
+                <div class="carousel-cell"><img src="https://danny-amazon.netlify.app/images/carouselA3.jpg"></div>
+                <div class="carousel-cell"><img src="https://danny-amazon.netlify.app/images/carouselA2.jpg"></div>
+                <div class="carousel-cell"><img src="https://danny-amazon.netlify.app/images/carouselA4.jpg"></div>
+                <div class="carousel-cell"><img src="https://danny-amazon.netlify.app/images/carouselA5.jpg"></div>
+             
+            </div>
+    
+            <!-------Feed carousel-------->
+    
+            <h3 class="carousel-heading2">Electronics<a href=#>see more</a></h3>
+            <div class="carousel2" data-flickity='{"groupCells": true}'>
+                <div class="carousel-cell2"><img src="https://danny-amazon.netlify.app/images/carouselB5.jpg"></div>
+                <div class="carousel-cell2"><img src="https://danny-amazon.netlify.app/images/carouselB1.jpg"></div>
+                <div class="carousel-cell2"><img src="https://danny-amazon.netlify.app/images/carouselB6.jpg"></div>
+                <div class="carousel-cell2"><img src="https://danny-amazon.netlify.app/images/carouselB4.jpg"></div>
+                <div class="carousel-cell2"><img src="https://danny-amazon.netlify.app/images/carouselB3.jpg"></div>
+                <div class="carousel-cell2"><img src="https://danny-amazon.netlify.app/images/carouselB2.jpg"></div>
+                <div class="carousel-cell2"><img src="https://danny-amazon.netlify.app/images/carouselB1.jpg"></div>
+                <div class="carousel-cell2"><img src="https://danny-amazon.netlify.app/images/carouselB5.jpg"></div>
+                <div class="carousel-cell2"><img src="https://danny-amazon.netlify.app/images/carouselB2.jpg"></div>
+                <div class="carousel-cell2"><img src="https://danny-amazon.netlify.app/images/carouselB6.jpg"></div>
+                <div class="carousel-cell2"><img src="https://danny-amazon.netlify.app/images/carouselB3.jpg"></div>
+                
+            </div>
+
+            <!-------Feed carousel-------->
+    
+            <h3 class="carousel-heading2">Backpacks<a href=#>see more</a></h3>
+            <div class="carousel2" data-flickity='{"groupCells": true}'>
+                <div class="carousel-cell2"><img src="https://danny-amazon.netlify.app/images/carouselD3.jpg"></div>
+                <div class="carousel-cell2"><img src="https://danny-amazon.netlify.app/images/carouselD2.jpg"></div>
+                <div class="carousel-cell2"><img src="https://danny-amazon.netlify.app/images/carouselD4.jpg"></div>
+                <div class="carousel-cell2"><img src="https://danny-amazon.netlify.app/images/carouselD1.jpg"></div>
+                <div class="carousel-cell2"><img src="https://danny-amazon.netlify.app/images/carouselD2.jpg"></div>
+                <div class="carousel-cell2"><img src="https://danny-amazon.netlify.app/images/carouselD3.jpg"></div>
+                <div class="carousel-cell2"><img src="https://danny-amazon.netlify.app/images/carouselD1.jpg"></div>
+                <div class="carousel-cell2"><img src="https://danny-amazon.netlify.app/images/carouselD2.jpg"></div>
+                <div class="carousel-cell2"><img src="https://danny-amazon.netlify.app/images/carouselD4.jpg"></div>
+            </div>
+    
+            <!-------Feed carousel - Third-------->
+            <div id="carousel3-container">
+                <h3 class="carousel-heading3">Book ideas inspired by your shopping history</h3>
+                <div class="sign-in-container2">
+                    <button class="sign-in-button2" id="submit2">Sign in to personalized</button>
+                </div>
+                <div class="carousel3" data-flickity='{"groupCells": true}'>
+                    <div class="carousel-cell3"><img src="https://danny-amazon.netlify.app/images/carouselC4.jpg"></div>
+                    <div class="carousel-cell3"><img src="https://danny-amazon.netlify.app/images/carouselC2.jpg"></div>
+                    <div class="carousel-cell3"><img src="https://danny-amazon.netlify.app/images/carouselC1.jpg"></div>
+                    <div class="carousel-cell3"><img src="https://danny-amazon.netlify.app/images/carouselC6.jpg"></div>
+                    <div class="carousel-cell3"><img src="https://danny-amazon.netlify.app/images/carouselC5.jpg"></div>
+                    <div class="carousel-cell3"><img src="https://danny-amazon.netlify.app/images/carouselC4.jpg"></div>
+                    <div class="carousel-cell3"><img src="https://danny-amazon.netlify.app/images/carouselC2.jpg"></div>
+                    <div class="carousel-cell3"><img src="https://danny-amazon.netlify.app/images/carouselC1.jpg"></div>          
+                    <div class="carousel-cell3"><img src="https://danny-amazon.netlify.app/images/carouselC6.jpg"></div>
+                    <div class="carousel-cell3"><img src="https://danny-amazon.netlify.app/images/carouselC5.jpg"></div>
+                   
+                    
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="footer-container">
+            <a class="footer-back-top-link" href="#">Back to top</a>
+            <div class="footer-general-info">
+                <ul class="footer-general1">
+                    <a href="#"><li><span>Get to Know Us</span></li></a>
+                    <a href="#"><li>Careers</li></a>
+                    <a href="#"><li>Blog</li></a>
+                    <a href="#"><li>About Amazon</li></a>
+                    <a href="#"><li>Investor Relations</li></a>
+                </ul>
+                <ul ul class="footer-general2">
+                    <a href="#"><li><span>Make Money with Us</span></li></a>
+                    <a href="#"><li>Sell on Amazon</li></a>
+                    <a href="#"><li>Sell on Amazon Business</li></a>
+                    <a href="#"><li>Sell Your Apps on Amazon</li></a>
+                    <a href="#"><li>Become Affiliate</li></a>
+                </ul>
+                <ul ul class="footer-general3">
+                    <a href="#"><li><span>Amazon Payment Products</span></li></a>
+                    <a href="#"><li>Amazon Business Card</li></a>
+                    <a href="#"><li>Shop with Points</li></a>
+                    <a href="#"><li>Reload Your Balance</li></a>
+                    <a href="#"><li>Amazon Currency Converter</li></a>
+                </ul>
+                <ul ul class="footer-general4">
+                    <a href="#"><li><span>Let Us Help You</span></li></a>
+                    <a href="#"><li>Amazon and COVID-19</li></a>
+                    <a href="#"><li>Your Account</li></a>
+                    <a href="#"><li>Your Orders</li></a>
+                    <a href="#"><li>Shipping Rates</li></a>
+                </ul>
+            </div>
+            <div class="footer-ribbon">
+                <div>
+                    <a href="#"><img class="logo" src="img/logo.png" alt="logo"></a>
+                </div>
+                <ul class="ribbon-list">
+                    <li class="footer-ribbon-info"><a href="#"><i class="fa-solid fa-globe"></i> English </a></li>          
+                    <i class="footer-ribbon-info"><a href="#">India</a></i>
+ 
+ 
+                   
+                </ul>
+            </div>
+
+            <div class="footer-bottom">
+                <ul>
+                    <a href="#"><li><span>AbeBooks</span></li></a>
+                    <a href="#"><li>Books & arts</li></a>
+                    <a href="#"><li>& Collectibles</li></a>
+                </ul>
+                <ul>
+                    <a href="#"><li><span>Amazon Web Services</span></li></a>
+                    <a href="#"><li>scalable cloud</li></a>
+                    <a href="#"><li>computing services</li></a>
+                </ul>
+                <ul>
+                    <a href="#"><li><span>Audible</span></li></a>
+                    <a href="#"><li>Audio</li></a>
+                    <a href="#"><li>Video</li></a>
+                </ul>
+                <ul>
+                    <a href="#"><li><span>DPReview</span></li></a>
+                    <a href="#"><li>Digital</li></a>
+                    <a href="#"><li>Photography</li></a>
+                </ul>
+                <ul>
+                    <a href="#"><li><span>IMDb</span></li></a>
+                    <a href="#"><li>Movies's Tv</li></a>
+                    <a href="#"><li>& Celebrities</li></a>
+                </ul>
+                <ul>
+                    <a href="#"><li><span>Prime Now</span></li></a>
+                    <a href="#"><li>2-Houe Delivery</li></a>
+                    <a href="#"><li>on Everday Items</li></a>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
